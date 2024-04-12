@@ -834,10 +834,10 @@ cursor: pointer;
     top: -50px;
     left: 505px;
 }
-/* main part of home page ends here  */
+/*  part of home page ends here  */
 
 
-/* main part of cart starts here  */
+/*  part of cart starts here  */
 .cartpage{
     background-color: rgba(128, 128, 128, 0.182);
     height: 60px;
@@ -953,11 +953,179 @@ cursor: pointer;
     margin-top: 32px;
     cursor: pointer;
 }
+.cart-img1 i{
+    height: 20px;
+    margin-left: 180px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+#dustbin{
+    height: 20px;
+    margin-left: 140px;
+    margin-top: 32px;
+    cursor: pointer; 
+}
+
+
+ .update{
+    margin-top: 55px;
+    margin-left: 1100px;
+    margin-bottom: 50px;
+}
+ .update .shuffle{
+    padding: 13px;
+    width: 140px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+ .update .shuffle i{
+    margin-right: 7px;
+}
+ .update .continue-shopping{
+    padding: 13px;
+    width: 170px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-left: 5px;
+    background-color: #218F76;
+    cursor: pointer;
+}
+ .update .continue-shopping i{
+    margin-right: 7px;
+}
+ .line1{
+    width: 650px;
+    margin-left: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+}
+ .fa-fingerprint{
+    margin-left: 750px;
+    position: relative;
+    top: -20px;
+    font-size: 29px;
+    color:rgba(0, 0, 0, 0.407);
+}
+ .line2{
+    position: relative;
+    top: -45px;
+    width: 620px;
+    margin-right: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+}
+ .shipping-details{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+ .calculate{
+    width: 50%;
+}
+ .calculate .state{
+    display: block;
+    width: 92%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+ .calculate .city{
+    width: 43%;
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+ .calculate .code{
+    width: 43%;
+    margin-top: 15px;
+    margin-left: 12px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+ .calculate .update-button{
+    margin-top: 15px;
+    padding: 12px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+ .calculate .update-button i{
+    margin-right: 7px;
+}
+ .calculate .apply-coupon{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+ .calculate .coupon{
+    width: 43%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+ .calculate .apply-button{
+    margin-left: 10px;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+ .calculate .apply-button i{
+    transform: rotate(405deg);
+    margin-right: 5px;
+}
+ .cart-total{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    width: 620px;
+    height: 250px;
+    margin-top: 20px;
+}
+ .cart-total h4{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+ .cart-total table{
+    width: 570px;
+    margin-left: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.145);
+}
+ .cart-total table .row-data{
+    color: rgba(0, 0, 0, 0.675);
+}
+ .cart-total table .price-tag{
+    color: #218F76;
+    font-weight: bold;
+}
+ .cart-total .proceed-button{
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 12px;
+    width: 180px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+ .cart-total .proceed-button i{
+    margin-right: 7px;
+}
 
 .wishlist-container{
     margin-bottom: 100px;
 }
-/* main part of cart ends here */
+/*  part of cart ends here */
 
 
 
