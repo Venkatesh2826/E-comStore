@@ -108,7 +108,7 @@ body{
 
 /*  header ends here */
 
-/* main part of home page start here */
+/*  part of home page start here */
  .banner{
     display: flex;
     margin-top: 100px;
@@ -756,8 +756,80 @@ cursor: pointer;
     left: 20px;
 }
 
-/* main part of login page starts here  */
-main .loginpage{
+ .releases-deals{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+ .releases-deals .outlet{
+    margin-left: 240px;
+}
+ .releases-deals .top-selling{
+    margin-left: 210px;
+}
+ .releases-deals .trendy{
+    margin-left: 250px;
+}
+ .first-color{
+    position: relative;
+    width: 50px;
+    border: 1.7px solid #1fa485;
+    top: -60px;
+    left: -648px;
+}
+ .first-hr{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    width: 275px;
+    top: -21.4px;
+    left: -500px;
+}
+ .second-color{
+    position: relative;
+    width: 50px;
+    border: 1.7px solid #1fa485;
+    top: -71px;
+    left: -307px;
+}
+.second-hr{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    width: 265px;
+    top: -30px;
+    left: -165px;
+}
+ .third-color{
+    position: relative;
+    width: 50px;
+    border: 1.7px solid #1fa485;
+    top: -82px;
+    left: 32px;
+}
+.third-hr{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    width: 278px;
+    top: -39.5px;
+    left: 170px;
+}
+ .fourth-color{
+    position: relative;
+    width: 50px;
+    border: 1.7px solid #1fa485;
+    top: -94px;
+    left: 367px;
+} .fourth-hr{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    width: 270px;
+    top: -50px;
+    left: 505px;
+}
+
+
+
+/*  part of login page starts here  */
+ .loginpage{
     background-color: rgba(128, 128, 128, 0.182);
     height: 60px;
     display: flex;
@@ -767,7 +839,7 @@ main .loginpage{
     margin-bottom: 60px;
 }
 
-main .container .login{
+ .container .login{
     border: 1px solid rgba(0, 0, 0, 0.115);
     padding: 15px;
     width: 42%;
@@ -776,7 +848,7 @@ main .container .login{
     border-radius: 5px;
 }
 
-main .container h3{
+ .container h3{
     margin-left: 15px;
 }
 
@@ -798,7 +870,7 @@ main .container h3{
     border-radius: 5px;
     margin-bottom: 15px;
 }
-main .container .login-button{
+ .container .login-button{
     margin-left: 15px;
     padding: 10px;
     width: 80px;
@@ -809,21 +881,21 @@ main .container .login-button{
     cursor: pointer;
     
 }
-main .container .login-button:hover{
+ .container .login-button:hover{
     background-color: white;
     color:rgb(32,178,170) ;
     border: 2px solid rgb(32,178,170) ;
 }
-main .container .account{
+ .container .account{
     border: 1px solid rgba(0, 0, 0, 0.115);
     padding: 15px;
     width: 41%;
     border-radius: 5px;
 }
-main .container .account h2{
+ .container .account h2{
     margin-left: 15px;
 }
-main .container .account .main-text{
+ .container .account .-text{
     margin-left: 15px;
     display: block;
     width: 525px;
@@ -832,7 +904,7 @@ main .container .account .main-text{
     border-radius: 5px;
     margin-bottom: 15px;
 }
-main .container .account .submit-button{
+ .container .account .submit-button{
     margin-left: 15px;
     padding: 10px;
     width: 150px;
@@ -842,20 +914,20 @@ main .container .account .submit-button{
     border-radius: 5px;
     cursor: pointer;
 }
-main .container .submit-button:hover{
+ .container .submit-button:hover{
     background-color: white;
     color:rgb(32,178,170) ;
     border: 2px solid rgb(111, 202, 172) ;
 }
-main .container{
+ .container{
     display: flex;
     gap: 20px;
     margin-bottom: 60px;
 }
-/* main part of login page ends here */
+/*  part of login page ends here */
 
 
-/* main part of compare starts here */
+/*  part of compare starts here */
 .compare{
     display: flex;
     background-color: rgba(128, 128, 128, 0.182);
@@ -942,7 +1014,7 @@ main .container{
 }
 
 
-.compare-content .domains{
+.compare-content .dos{
     color: grey;
 }
 
@@ -954,10 +1026,10 @@ main .container{
 }
 
 
-/* main part of compare ends here */
+/*  part of compare ends here */
 
 
-/* main shop part starts here */
+/*  shop part starts here */
  .shoppage{
     background-color: rgba(128, 128, 128, 0.182);
     height: 60px;
@@ -1211,7 +1283,7 @@ main .container{
     bottom: 200px;
     left: 16px;
 }
-main .sliders{
+ .sliders{
     display: flex;
     align-items: center;
     text-align: center;
@@ -1219,13 +1291,13 @@ main .sliders{
     gap: 10px;
     margin-bottom: 30px;
 }
-main .sliders button{
+ .sliders button{
     border: none;
     background: none;
     height: 27px;
     cursor: pointer;
 }
-main .sliders button:hover{
+ .sliders button:hover{
     background-color: darkgreen;
     color: white;
     border-radius: 4px;
@@ -1253,12 +1325,12 @@ main .sliders button:hover{
     border-radius: 3px;
 }
 
-/* main shop edit ends here */
+/*  shop edit ends here */
 
 
-/* main part of My account here */
+/*  part of My account here */
 
-main .account1{
+ .account1{
         background-color: rgba(128, 128, 128, 0.182);
         height: 60px;
         display: flex;
@@ -1314,7 +1386,7 @@ main .account1{
     gap: 30px;
 }
 
-/*  main part of my account edit ends here */
+/*   part of my account edit ends here */
 
 
 
@@ -1337,8 +1409,9 @@ footer{ margin-bottom: 30px;
 .email{
     margin-left: 150px;
     height: 30px;
-    width: 300px;
+    width: 280px;
     border: none;
+    padding: 0px 15px;
 }
 
 .subscribe{
