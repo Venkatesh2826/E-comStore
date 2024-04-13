@@ -1188,7 +1188,7 @@ cursor: pointer;
 /*  part of home page ends here  */
 
 /* part of fashio page starts here */
- .fashion{
+ .fashion-part{
     background-color: rgba(128, 128, 128, 0.182);
     height: 60px;
     display: flex;
@@ -1495,13 +1495,13 @@ main .information .additional{
     margin-right:120px;
 }
 
-.fashion-btn{
+.fashion-button{
     margin-left: 80px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-.fashion-btn button{
+.fashion-button button{
     height: 40px;
     width: 120px;
     background: #1fa485;
@@ -1511,7 +1511,10 @@ main .information .additional{
     cursor: pointer;
 }
 
-.fashion-btn button:hover{
+a{
+    color: black;
+}
+.fashion-button button:hover{
     height: 40px;
     width: 120px;
     background: white;
@@ -2427,7 +2430,7 @@ footer{ margin-bottom: 30px;
 .footertext .contact .contact1{
     color: grey;
 }
-.footertext .contact .add ,.Phone,.time{
+.footertext .contact .foot-add ,.Phone,.time{
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 10px;
